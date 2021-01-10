@@ -138,6 +138,27 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 992px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
+			}
+
+		}
+		@media screen and (max-width: 768px) {
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+
+		}
+		@media screen and (max-width: 576px) {
+
+			body, input, select, textarea {
+				font-size: 6pt;
+			}
+
+		}
 
 	a {
 		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
