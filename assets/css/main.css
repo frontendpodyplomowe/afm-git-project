@@ -35,6 +35,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	
 }
 
 blockquote, q {
@@ -70,6 +71,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+
 }
 
 /* Basic */
@@ -3166,7 +3168,8 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: silver;
+		border-radius: 50px 20px;
 	}
 
 		#footer > .inner {
@@ -3182,6 +3185,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+		
 		}
 
 			#footer > .inner > * > :last-child {
@@ -3204,11 +3208,12 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: black;
+			
 			}
 
 				#footer > .inner .copyright a {
-					color: inherit;
+					color: goldenrod;
 				}
 
 				#footer > .inner .copyright li {
@@ -3217,12 +3222,14 @@ input, select, textarea {
 					line-height: 1;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;
+					color:goldenrod;
 				}
 
 					#footer > .inner .copyright li:first-child {
 						border-left: 0;
 						padding-left: 0;
 						margin-left: 0;
+						color:goldenrod;
 					}
 
 		@media screen and (max-width: 1280px) {
@@ -3281,7 +3288,7 @@ input, select, textarea {
 						-webkit-order: -1;
 						-ms-order: -1;
 						order: -1;
-						width: 100%;
+						width: 80%;
 						margin-left: 0;
 					}
 
@@ -3308,7 +3315,7 @@ input, select, textarea {
 					#footer > .inner .copyright li:first-child {
 						margin-top: 0;
 					}
-
+					
 		}
 
 /* Wrapper */
