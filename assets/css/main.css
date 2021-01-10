@@ -3327,3 +3327,21 @@ input, select, textarea {
 			}
 
 		}
+
+		.inner p{
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 1rem;
+			color:black;
+		}
+
+		#main .inner .image img{
+			height: 50%;
+			width: 50%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto 
+			
+		}
+		#main{
+			background-color: lightgrey;
+		}
