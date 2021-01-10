@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 /*
 	Phantom by HTML5 UP
@@ -138,6 +138,27 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 992px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
+			}
+
+		}
+		@media screen and (max-width: 768px) {
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+
+		}
+		@media screen and (max-width: 576px) {
+
+			body, input, select, textarea {
+				font-size: 6pt;
+			}
+
+		}
 
 	a {
 		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -145,13 +166,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		color: #900C3F ;
+		/* border-bottom: dotted 1px rgba(88, 88, 88, 0.5); */
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #FFC300 !important;
 		}
 
 	strong, b {
@@ -209,6 +230,10 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		
+	}
+	.socialMedia {
+		color: #FF5733;
 	}
 
 	h3 {
@@ -2040,7 +2065,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+		cursor: pointer;
 		list-style: none;
 		padding-left: 0;
 		margin: -1em 0 2em -1em;
@@ -2050,6 +2075,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 1em 0 0 1em;
 		}
+
 
 /* Form */
 
@@ -2311,14 +2337,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
-		border: 0;
+		border-radius: 10px;
+		border: 5px dotted#c9c9c9;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 4px;
+			border-radius: 10px;
 			display: block;
 		}
 
