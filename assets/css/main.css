@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		color: #900C3F ;
+		/* border-bottom: dotted 1px rgba(88, 88, 88, 0.5); */
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #FFC300 !important;
 		}
 
 	strong, b {
@@ -209,6 +209,10 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		
+	}
+	.socialMedia {
+		color: #FF5733;
 	}
 
 	h3 {
@@ -2040,7 +2044,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+		cursor: pointer;
 		list-style: none;
 		padding-left: 0;
 		margin: -1em 0 2em -1em;
@@ -2050,6 +2054,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 1em 0 0 1em;
 		}
+
 
 /* Form */
 
