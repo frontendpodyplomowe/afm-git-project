@@ -3,11 +3,11 @@
 #### This is simple web app created by students of AFM using template Phantom by HTML5 UP html5up.net | @ajlkn  
 ## Table of Contents
 
- *  [General Info](#general-info);
- *  [Technologies](#technologies);
- *  [Setup](#setup)
- *  [Status](#status)
- *  [Credits](#credits)
+* ### [General Info](#general-info)
+* ### [Technologies](#technologies)
+* ### [Setup](#setup)
+* ### [Status](#status)
+* ### [Credits](#credits)
 
 
  ## General Info 
