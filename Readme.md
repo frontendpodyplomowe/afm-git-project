@@ -11,7 +11,7 @@
 
 
  ## General Info 
- #### This simple page is a the project made by students od AFM 2020/2021 to learn how to work, and cooperate using [Git](https://git-scm.com) and [GitHub](https://github.com). We made changes of original [template - Phantom](https://html5up.net/phantom) from HTML5 UP. Now page is with new year party style.
+ #### This simple page is a the project made by students od [AFM 2020/2021](https://podyplomowe.ka.edu.pl/oferta/frontend-developer-z-angular-programowanie-nowoczesnych-aplikacji-webowych/) to learn how to work, and cooperate using [Git](https://git-scm.com) and [GitHub](https://github.com). We made changes of original [template - Phantom](https://html5up.net/phantom) from HTML5 UP. Now page is with new year party style.
 
  ## Technologies
 
